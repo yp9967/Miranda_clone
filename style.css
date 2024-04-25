@@ -1,0 +1,470 @@
+@font-face {
+  font-family: Domain;
+  src: url(./Domain.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+ 
+}
+.main{
+    background-color: #222;
+    overflow: hidden;
+}
+
+.page1 {
+  height: 100%;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  background-color: #c2bbb1;
+}
+
+.nav {
+  height: 70px;
+  width: 100%;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #222;
+}
+
+.nav img {
+  height: 20px;
+  width: 30%;
+}
+
+.nav h5 {
+  font-size: 15px;
+  font-family: Domain;
+  color: #4b4945;
+  font-weight: 100;
+
+  width: 30%;
+}
+.nav span {
+  width: 30%;
+  text-align: right;
+}
+
+.elems {
+  display: flex;
+  height: 300px;
+
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+.elem1 {
+  width: 30%;
+  height: 100%;
+}
+.elem1 .image-div {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+.image-div:hover img {
+  scale: 1.1;
+}
+
+.elem1 .image-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all ease 0.5s;
+  border: 1px solid #222;
+}
+.elem1 h5 {
+  font-size: 18px;
+  font-weight: 200;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Canopee;
+}
+.elem1 h5 span {
+  background-color: #b63b12;
+  color: #b1aeae;
+  margin-left: 5px;
+  padding: 0 3px;
+  border-radius: 5px;
+}
+.elem1 p {
+  font-family: Domain;
+  color: #4b4945;
+}
+
+.elem2 {
+  width: 30%;
+  height: 100%;
+  padding: 10px 40px;
+  text-align: center;
+  border-left: 1px solid #706f6f;
+  border-right: 1px solid #5e5c5c;
+}
+.elem2 h2 {
+  font-family: Canopee;
+  font-weight: 500;
+  font-size: 50px;
+  color: #1b1b19;
+}
+.elem2 h4 {
+  font-family: Domain;
+  font-weight: lighter;
+  color: #4b4945;
+  font-size: 35px;
+}
+.elem2 h6 {
+  margin-top: 20px;
+  font-size: 17px;
+  color: #4b4945;
+  font-weight: lighter;
+  font-family: Domain;
+}
+.elem2 h6 span {
+  font-family: Canopee;
+  font-weight: bold;
+}
+.elem3 {
+  width: 30%;
+  height: 100%;
+}
+.elem3 .image-div {
+  height: 60%;
+  width: 100;
+  overflow: hidden;
+}
+
+.elem3 .image-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all ease 0.5s;
+  border: 1px solid #222;
+}
+.elem3 h5 {
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Canopee;
+}
+.elem3 h5 span {
+  background-color: #b63b12;
+  color: #b1aeae;
+  margin-left: 5px;
+  padding: 0 3px;
+  border-radius: 5px;
+}
+.elem3 p {
+  font-family: Domain;
+  color: #4b4945;
+}
+
+
+.logo h1 {
+ 
+  line-height: 360px;
+  font-weight: 200;
+  font-family: Canopee;
+  text-transform: uppercase;
+  font-size: 400px;
+  background-color: #1c1c19;
+  color: #c2bbb1;
+  width: 94%;
+  margin-left: 4%;
+  
+}
+.page2{
+    height: 180vh;
+    width: 100%;
+    background-color: #c2bbb1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+.page2-left{
+    height: 100%;
+    width: 30%;
+    padding-right: 40px;
+    margin-left: 30px;
+    border-right: 1px solid #222;
+}
+.page2-left h2{
+    font-size: 80px;
+    font-family: Canopee;
+    line-height: 100px;
+    font-weight: 100;
+}
+.page2-left h2 span{
+    font-size: 130px;
+    font-weight: 700;
+}
+.page2-left img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.page2-left p{
+    font-family: domain;
+    font-size: 25px;
+    color: #4b4945;
+}
+.page2-right{
+    height: 100%;
+    width: 70%;
+    padding: 0 50px;
+
+}
+.page2-right img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.page2-right h2{
+    font-family: Canopee;
+    font-weight: 100;
+    font-size: 90px;
+    padding: 20px 0;
+    letter-spacing: -2px;
+    line-height: 80px;
+}
+.page3{
+    height: 55vh;
+    background-color: #c2bbb1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.page3 h1{
+    height: 85%;
+    font-family: canopee;
+    font-weight: 100;
+    font-size:320px;
+    background-color: #222;
+    color: #c2bbb1;
+    padding: 0 20px;
+    line-height: 270px;
+}
+.page3 img{
+    height: 90%;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.page4{
+    height: 120vh;
+    width: 100%;
+    background-color: #c2bbb1;
+    display: flex;
+   
+}
+.page4-left{
+    height: 100%;
+    width: 60%;
+}
+.left-up{
+   height: 40%;
+   display: flex;  
+   padding: 0 20px;
+}
+.item1{
+    height: 56%;
+    padding: 0 30px;
+    margin-right: 10px;
+    border-right: 1px solid #222;
+}
+.item1 h2{
+    font-family: canopee;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: -3px;
+    color: #302f2f;
+    
+}
+.item1 h4{
+    font-family: domain;
+    font-size: 35px;
+    color: #4b4945;
+    font-weight: lighter;
+    line-height: 30px;
+    margin-top: 15px;
+}
+.item1 h6{
+    font-family: domain;
+    font-size: 20px;
+    font-weight: 100;
+    color: #4b4945;
+    margin-top: 15px;
+}
+.item1 h6 span{
+    font-family: canopee;
+    color: #222;
+}
+.item2{
+    width:50%;
+    height:30%;
+    margin-left: 30px;
+}
+.img2-div{
+    overflow: hidden;
+}
+.img2-div:hover img{
+    scale: 1.1;
+    cursor: pointer;
+}
+.item2 img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+.item2 h4{
+    font-family: canopee;
+    font-size: 20px;
+    color: #4b4945;
+    margin-top: 10px;
+}
+.item2 h6{
+    font-family: domain;
+    font-size: 17px;
+    font-weight: 100;
+}
+.left-down{
+    height:65%;
+    width: 100%;
+    padding: 0 30px;
+}
+.left-down img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.page4-right{
+    height: 100%;
+    width: 40%;
+    padding: 0 30px;
+    border-left: 1px solid #302f2f;
+}
+.right-up h1{
+    font-family: canopee;
+    font-size: 90px;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: -3px;
+}
+.right-up h1 span{
+    font-size: 180px;
+    line-height: 120px;
+}
+.right-up h4{
+    font-family: domain;
+    font-weight: 100;
+    font-size: 25px;
+    color: #4b4945;
+    margin-left: 20px;
+}
+.right-up h6{
+    font-family: domain;
+    font-weight: 100;
+    font-size: 25px;
+    color: #4b4945;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.page4-right .anda{
+    height: 160px;
+    border: 1px solid #4b4945;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c2bbb1;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.anda h1{
+    font-family: Canopee;
+    font-size: 50px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-20%);
+    transition: all ease 0.4s;
+    
+    
+}
+.anda img{
+    transform: translateX(-120%);
+    transition: all ease 0.4s;
+    
+}
+.anda:hover img{
+    transform: translateX(120%);
+    cursor: pointer;
+}
+.anda:hover h1{
+    transform: translateX(80%);
+    cursor: pointer;
+}
+.page5{
+    padding: 10px 0;
+    
+    background-color: #c2bbb1;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-top: 1px solid #302f2f;
+    border-bottom: 1px solid #302f2f;
+}
+.page5::-webkit-scrollbar{
+    display: none;
+}
+.page5 h1{
+    font-size: 50px;
+    font-weight: 100;
+    font-family: domain;
+    display: inline-block;
+    margin-right: 20px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: scroll;
+    animation-duration: 2s;
+}
+.page5 h1 span{
+    font-family: canopee;
+    background-color: #302f2f;
+    color: #c2bbb1;
+    padding: 0 10px;
+}
+.page6{
+    height: 50px;
+    background-color: #c2bbb1;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(calc(-100% - 24px));
+    }
+}
+.page5:hover h1{
+    animation-play-state: paused;
+    cursor: pointer;
+}
